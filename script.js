@@ -10,7 +10,7 @@ function integerToRoman(num) {
   if (num <= 0 || num >= 4000) {
     throw new Error('The number must be between 1 and 3999.');
   }
-  
+  //
   // Array mapping integer values to their corresponding Roman numeral symbols.
   const romanNumerals = [
     { value: 1000, numeral: 'M' },
